@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C80A2A09-9FFF-405B-BDB0-6DBD781D081B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Auditoria</RootNamespace>
+    <AssemblyName>Auditoria</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administrador\AltaAuditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\AltaAuditor.Designer.cs">
+      <DependentUpon>AltaAuditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Ayuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\Ayuda.Designer.cs">
+      <DependentUpon>Ayuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\VerAuditores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\VerAuditores.Designer.cs">
+      <DependentUpon>VerAuditores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditor\AyudaAuditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditor\AyudaAuditor.Designer.cs">
+      <DependentUpon>AyudaAuditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\CapacitacionesCuestionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\CapacitacionesCuestionario.Designer.cs">
+      <DependentUpon>CapacitacionesCuestionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\CaracterGeneralCuestionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\CaracterGeneralCuestionario.Designer.cs">
+      <DependentUpon>CaracterGeneralCuestionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\PlanificacionCuestionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\PlanificacionCuestionario.Designer.cs">
+      <DependentUpon>PlanificacionCuestionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\ReclutamientoCuestionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\ReclutamientoCuestionario.Designer.cs">
+      <DependentUpon>ReclutamientoCuestionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\DatosDeLaEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\DatosDeLaEmpresa.Designer.cs">
+      <DependentUpon>DatosDeLaEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Estadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\Estadisticas.Designer.cs">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\ExportarExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\ExportarExcel.Designer.cs">
+      <DependentUpon>ExportarExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\InicioAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\InicioAdministrador.Designer.cs">
+      <DependentUpon>InicioAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\RecursosInformaticosCuestionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\RecursosInformaticosCuestionario.Designer.cs">
+      <DependentUpon>RecursosInformaticosCuestionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\RelacionesLaboralesCuestionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditor\Cuestionarios\RelacionesLaboralesCuestionario.Designer.cs">
+      <DependentUpon>RelacionesLaboralesCuestionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditor\InicioAuditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditor\InicioAuditor.Designer.cs">
+      <DependentUpon>InicioAuditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditor\PanelDeCuestionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditor\PanelDeCuestionarios.Designer.cs">
+      <DependentUpon>PanelDeCuestionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditor\VerEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditor\VerEmpresa.Designer.cs">
+      <DependentUpon>VerEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IniciarSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IniciarSesion.Designer.cs">
+      <DependentUpon>IniciarSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Administrador\DatosDeLaEmpresa.resx">
+      <DependentUpon>DatosDeLaEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\InicioAdministrador.resx">
+      <DependentUpon>InicioAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditor\Cuestionarios\CapacitacionesCuestionario.resx">
+      <DependentUpon>CapacitacionesCuestionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditor\Cuestionarios\CaracterGeneralCuestionario.resx">
+      <DependentUpon>CaracterGeneralCuestionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditor\Cuestionarios\PlanificacionCuestionario.resx">
+      <DependentUpon>PlanificacionCuestionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditor\Cuestionarios\ReclutamientoCuestionario.resx">
+      <DependentUpon>ReclutamientoCuestionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditor\Cuestionarios\RecursosInformaticosCuestionario.resx">
+      <DependentUpon>RecursosInformaticosCuestionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditor\Cuestionarios\RelacionesLaboralesCuestionario.resx">
+      <DependentUpon>RelacionesLaboralesCuestionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditor\InicioAuditor.resx">
+      <DependentUpon>InicioAuditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditor\PanelDeCuestionarios.resx">
+      <DependentUpon>PanelDeCuestionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditor\VerEmpresa.resx">
+      <DependentUpon>VerEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IniciarSesion.resx">
+      <DependentUpon>IniciarSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
