@@ -18,3 +18,10 @@ C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Deb
 C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Auditor.VerEmpresa.resources
 C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Auditor.CapacitacionesCuestionario.resources
 C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Auditor.Cuestionarios.RecursosInformaticosCuestionario.resources
+C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Auditor.AyudaAuditor.resources
+C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Administrador.AltaAuditor.resources
+C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Ayuda.resources
+C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Estadisticas.resources
+C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.ExportarExcel.resources
+C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Administrador.VerAuditores.resources
+C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Administrador.VerEmpresas.resources

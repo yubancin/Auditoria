@@ -16,5 +16,12 @@ namespace Auditoria.Auditor
         {
             InitializeComponent();
         }
+
+        private void RelacionesLaboralesCuestionario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.OpenForms["PanelDeCuestionarios"].Visible = true;
+            this.Visible = false;
+            this.Dispose();
+        }
     }
 }

@@ -83,6 +83,7 @@
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // cerrarSesionToolStripMenuItem
             // 
@@ -97,6 +98,7 @@
             this.cerrarSesionToolStripMenuItem1.Name = "cerrarSesionToolStripMenuItem1";
             this.cerrarSesionToolStripMenuItem1.Size = new System.Drawing.Size(143, 22);
             this.cerrarSesionToolStripMenuItem1.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem1.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem1_Click);
             // 
             // panel1
             // 
@@ -149,6 +151,7 @@
             this.Name = "VerEmpresa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VerEmpresa";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.VerEmpresa_FormClosed);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);

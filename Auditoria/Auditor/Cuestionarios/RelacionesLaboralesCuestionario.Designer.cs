@@ -62,7 +62,9 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.relacionesLaborales);
             this.Name = "RelacionesLaboralesCuestionario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RelacionesLaboralesCuestionario";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RelacionesLaboralesCuestionario_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.relacionesLaborales)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

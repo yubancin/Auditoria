@@ -62,6 +62,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.formacionDesarrollo);
             this.Name = "CapacitacionesCuestionario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CapacitacionesCuestionario";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CapacitacionesCuestionario_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.formacionDesarrollo)).EndInit();

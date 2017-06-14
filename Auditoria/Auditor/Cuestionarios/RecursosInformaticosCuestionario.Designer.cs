@@ -62,7 +62,9 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.recursosInformaticos);
             this.Name = "RecursosInformaticosCuestionario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RecursosInformaticosCuestionario";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RecursosInformaticosCuestionario_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.recursosInformaticos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -62,7 +62,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.planificacion);
             this.Name = "PlanificacionCuestionario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PlanificacionCuestionario";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PlanificacionCuestionario_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.planificacion)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

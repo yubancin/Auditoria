@@ -64,6 +64,12 @@
     <Compile Include="Administrador\VerAuditores.Designer.cs">
       <DependentUpon>VerAuditores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Administrador\VerEmpresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\VerEmpresas.Designer.cs">
+      <DependentUpon>VerEmpresas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Auditor\AyudaAuditor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,11 +162,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Administrador\AltaAuditor.resx">
+      <DependentUpon>AltaAuditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\Ayuda.resx">
+      <DependentUpon>Ayuda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administrador\DatosDeLaEmpresa.resx">
       <DependentUpon>DatosDeLaEmpresa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\Estadisticas.resx">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\ExportarExcel.resx">
+      <DependentUpon>ExportarExcel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administrador\InicioAdministrador.resx">
       <DependentUpon>InicioAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\VerAuditores.resx">
+      <DependentUpon>VerAuditores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\VerEmpresas.resx">
+      <DependentUpon>VerEmpresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditor\AyudaAuditor.resx">
+      <DependentUpon>AyudaAuditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Auditor\Cuestionarios\CapacitacionesCuestionario.resx">
       <DependentUpon>CapacitacionesCuestionario.cs</DependentUpon>

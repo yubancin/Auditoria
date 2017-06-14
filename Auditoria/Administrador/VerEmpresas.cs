@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Auditoria.Administrador
 {
-    public partial class VerAuditores : Form
+    public partial class VerEmpresas : Form
     {
-        public VerAuditores()
+        public VerEmpresas()
         {
             InitializeComponent();
         }
@@ -34,6 +34,13 @@ namespace Auditoria.Administrador
         private void registrarAuditorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AltaAuditor form = new AltaAuditor();
+            form.Show();
+            this.Visible = false;
+        }
+
+        private void verAuditoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VerAuditores form = new VerAuditores();
             form.Show();
             this.Visible = false;
         }
@@ -61,12 +68,10 @@ namespace Auditoria.Administrador
 
         private void cerrarSesionToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
             Application.OpenForms["IniciarSesion"].Visible = true;
             this.Visible = false;
             this.Dispose();
         }
-
 
         private void cerrarAplicacion(FormClosedEventArgs e)
         {
@@ -76,7 +81,8 @@ namespace Auditoria.Administrador
                 Application.Exit();
             }
         }
-        private void VerAuditores_FormClosed(object sender, FormClosedEventArgs e)
+
+        private void VerEmpresas_FormClosed(object sender, FormClosedEventArgs e)
         {
             cerrarAplicacion(e);
         }

@@ -39,7 +39,7 @@ namespace Auditoria
         {
             if (textUsuario.Text.Equals("Administrador"))
             {
-               Inicio form = new Inicio();
+               InicioAdministrador form = new InicioAdministrador();
                 form.Show();
                 this.Visible = false;
             }

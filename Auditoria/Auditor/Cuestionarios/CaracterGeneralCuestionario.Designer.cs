@@ -62,7 +62,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.caracterGeneral);
             this.Name = "CaracterGeneralCuestionario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CaracterGeneralCuestionario";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CaracterGeneralCuestionario_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.caracterGeneral)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

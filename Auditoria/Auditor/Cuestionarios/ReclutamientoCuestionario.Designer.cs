@@ -62,7 +62,9 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.reclutamiento);
             this.Name = "ReclutamientoCuestionario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ReclutamientoCuestionario";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ReclutamientoCuestionario_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.reclutamiento)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

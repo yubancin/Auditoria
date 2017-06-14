@@ -1,6 +1,6 @@
 ﻿namespace Auditoria
 {
-    partial class Inicio
+    partial class InicioAdministrador
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioAdministrador));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.datosDeLaEmpresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,11 +41,11 @@
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.textoInicio = new System.Windows.Forms.Label();
-            this.cerrarSesionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -81,30 +81,35 @@
             this.datosDeLaEmpresaToolStripMenuItem.Name = "datosDeLaEmpresaToolStripMenuItem";
             this.datosDeLaEmpresaToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.datosDeLaEmpresaToolStripMenuItem.Text = "Registrar Empresa";
+            this.datosDeLaEmpresaToolStripMenuItem.Click += new System.EventHandler(this.datosDeLaEmpresaToolStripMenuItem_Click);
             // 
             // verEmpresasToolStripMenuItem
             // 
             this.verEmpresasToolStripMenuItem.Name = "verEmpresasToolStripMenuItem";
             this.verEmpresasToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.verEmpresasToolStripMenuItem.Text = "Ver Empresas";
+            this.verEmpresasToolStripMenuItem.Click += new System.EventHandler(this.verEmpresasToolStripMenuItem_Click);
             // 
             // registrarAuditorToolStripMenuItem
             // 
             this.registrarAuditorToolStripMenuItem.Name = "registrarAuditorToolStripMenuItem";
             this.registrarAuditorToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.registrarAuditorToolStripMenuItem.Text = "Registrar Auditor";
+            this.registrarAuditorToolStripMenuItem.Click += new System.EventHandler(this.registrarAuditorToolStripMenuItem_Click);
             // 
             // verAuditoresToolStripMenuItem
             // 
             this.verAuditoresToolStripMenuItem.Name = "verAuditoresToolStripMenuItem";
             this.verAuditoresToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.verAuditoresToolStripMenuItem.Text = "Ver Auditores";
+            this.verAuditoresToolStripMenuItem.Click += new System.EventHandler(this.verAuditoresToolStripMenuItem_Click);
             // 
             // estadisticasToolStripMenuItem
             // 
             this.estadisticasToolStripMenuItem.Name = "estadisticasToolStripMenuItem";
             this.estadisticasToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.estadisticasToolStripMenuItem.Text = "Estadisticas";
+            this.estadisticasToolStripMenuItem.Click += new System.EventHandler(this.estadisticasToolStripMenuItem_Click);
             // 
             // verGraficasToolStripMenuItem
             // 
@@ -119,6 +124,7 @@
             this.exportarAExcelToolStripMenuItem.Name = "exportarAExcelToolStripMenuItem";
             this.exportarAExcelToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.exportarAExcelToolStripMenuItem.Text = "Exportar a Excel";
+            this.exportarAExcelToolStripMenuItem.Click += new System.EventHandler(this.exportarAExcelToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -133,6 +139,7 @@
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // cerrarSesionToolStripMenuItem
             // 
@@ -141,6 +148,13 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.cerrarSesionToolStripMenuItem.Text = "Salir";
+            // 
+            // cerrarSesionToolStripMenuItem1
+            // 
+            this.cerrarSesionToolStripMenuItem1.Name = "cerrarSesionToolStripMenuItem1";
+            this.cerrarSesionToolStripMenuItem1.Size = new System.Drawing.Size(143, 22);
+            this.cerrarSesionToolStripMenuItem1.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem1.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem1_Click);
             // 
             // pictureBox1
             // 
@@ -182,14 +196,7 @@
             this.textoInicio.TabIndex = 2;
             this.textoInicio.Text = "Auditoría de";
             // 
-            // cerrarSesionToolStripMenuItem1
-            // 
-            this.cerrarSesionToolStripMenuItem1.Name = "cerrarSesionToolStripMenuItem1";
-            this.cerrarSesionToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.cerrarSesionToolStripMenuItem1.Text = "Cerrar Sesion";
-            this.cerrarSesionToolStripMenuItem1.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem1_Click);
-            // 
-            // Inicio
+            // InicioAdministrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -197,9 +204,10 @@
             this.ClientSize = new System.Drawing.Size(704, 241);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "Inicio";
+            this.Name = "InicioAdministrador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Auditoría de Recursos Humanos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Inicio_FormClosed);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

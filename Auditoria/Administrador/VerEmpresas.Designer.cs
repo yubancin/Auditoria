@@ -1,6 +1,6 @@
 ﻿namespace Auditoria.Administrador
 {
-    partial class AltaAuditor
+    partial class VerEmpresas
     {
         /// <summary>
         /// Required designer variable.
@@ -53,7 +53,7 @@
             this.cerrarSesionToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(585, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(284, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -81,28 +81,28 @@
             this.verEmpresasToolStripMenuItem.Name = "verEmpresasToolStripMenuItem";
             this.verEmpresasToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.verEmpresasToolStripMenuItem.Text = "Ver Empresas";
-            this.verEmpresasToolStripMenuItem.Click += new System.EventHandler(this.verEmpresasToolStripMenuItem_Click_1);
+            this.verEmpresasToolStripMenuItem.Click += new System.EventHandler(this.verEmpresasToolStripMenuItem_Click);
             // 
             // registrarAuditorToolStripMenuItem
             // 
             this.registrarAuditorToolStripMenuItem.Name = "registrarAuditorToolStripMenuItem";
             this.registrarAuditorToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.registrarAuditorToolStripMenuItem.Text = "Registrar Auditor";
-            this.registrarAuditorToolStripMenuItem.Click += new System.EventHandler(this.registrarAuditorToolStripMenuItem_Click_1);
+            this.registrarAuditorToolStripMenuItem.Click += new System.EventHandler(this.registrarAuditorToolStripMenuItem_Click);
             // 
             // verAuditoresToolStripMenuItem
             // 
             this.verAuditoresToolStripMenuItem.Name = "verAuditoresToolStripMenuItem";
             this.verAuditoresToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.verAuditoresToolStripMenuItem.Text = "Ver Auditores";
-            this.verAuditoresToolStripMenuItem.Click += new System.EventHandler(this.verAuditoresToolStripMenuItem_Click_1);
+            this.verAuditoresToolStripMenuItem.Click += new System.EventHandler(this.verAuditoresToolStripMenuItem_Click);
             // 
             // estadisticasToolStripMenuItem
             // 
             this.estadisticasToolStripMenuItem.Name = "estadisticasToolStripMenuItem";
             this.estadisticasToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.estadisticasToolStripMenuItem.Text = "Estadisticas";
-            this.estadisticasToolStripMenuItem.Click += new System.EventHandler(this.estadisticasToolStripMenuItem_Click_1);
+            this.estadisticasToolStripMenuItem.Click += new System.EventHandler(this.estadisticasToolStripMenuItem_Click);
             // 
             // verGraficasToolStripMenuItem
             // 
@@ -117,7 +117,7 @@
             this.exportarAExcelToolStripMenuItem.Name = "exportarAExcelToolStripMenuItem";
             this.exportarAExcelToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.exportarAExcelToolStripMenuItem.Text = "Exportar a Excel";
-            this.exportarAExcelToolStripMenuItem.Click += new System.EventHandler(this.exportarAExcelToolStripMenuItem_Click_1);
+            this.exportarAExcelToolStripMenuItem.Click += new System.EventHandler(this.exportarAExcelToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -132,7 +132,7 @@
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
-            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click_1);
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // cerrarSesionToolStripMenuItem
             // 
@@ -141,7 +141,6 @@
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.cerrarSesionToolStripMenuItem.Text = "Salir";
-            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // cerrarSesionToolStripMenuItem1
             // 
@@ -150,16 +149,16 @@
             this.cerrarSesionToolStripMenuItem1.Text = "Cerrar Sesion";
             this.cerrarSesionToolStripMenuItem1.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem1_Click);
             // 
-            // AltaAuditor
+            // VerEmpresas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(585, 300);
+            this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "AltaAuditor";
+            this.Name = "VerEmpresas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AltaAuditor";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AltaAuditor_FormClosed);
+            this.Text = "VerEmpresas";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.VerEmpresas_FormClosed);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

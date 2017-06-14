@@ -16,5 +16,12 @@ namespace Auditoria.Auditor.Cuestionarios
         {
             InitializeComponent();
         }
+
+        private void RecursosInformaticosCuestionario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.OpenForms["PanelDeCuestionarios"].Visible = true;
+            this.Visible = false;
+            this.Dispose();
+        }
     }
 }

@@ -43,13 +43,13 @@
             this.relacionesLaborales = new System.Windows.Forms.PictureBox();
             this.recursosInformaticos = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.caracterGeneral)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.planificacion)).BeginInit();
@@ -85,6 +85,7 @@
             this.datosDeLaEmpresaToolStripMenuItem.Name = "datosDeLaEmpresaToolStripMenuItem";
             this.datosDeLaEmpresaToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.datosDeLaEmpresaToolStripMenuItem.Text = "Auditar Empresas";
+            this.datosDeLaEmpresaToolStripMenuItem.Click += new System.EventHandler(this.datosDeLaEmpresaToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -99,6 +100,7 @@
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // cerrarSesionToolStripMenuItem
             // 
@@ -113,6 +115,7 @@
             this.cerrarSesionToolStripMenuItem1.Name = "cerrarSesionToolStripMenuItem1";
             this.cerrarSesionToolStripMenuItem1.Size = new System.Drawing.Size(143, 22);
             this.cerrarSesionToolStripMenuItem1.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem1.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem1_Click);
             // 
             // caracterGeneral
             // 
@@ -200,55 +203,15 @@
             this.panel1.Size = new System.Drawing.Size(717, 455);
             this.panel1.TabIndex = 12;
             // 
-            // label1
+            // label7
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(188, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(344, 31);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Selecciona un Cuestionario";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(85, 202);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 24);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Caracter General";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(297, 202);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 24);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Planificación";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(505, 202);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(126, 24);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Reclutamiento";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(27, 392);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(193, 24);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "Formación y Desarrollo";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(484, 392);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(190, 24);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Recursos Informáticos";
             // 
             // label6
             // 
@@ -260,15 +223,55 @@
             this.label6.TabIndex = 17;
             this.label6.Text = "Relaciones Laborales";
             // 
-            // label7
+            // label5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(484, 392);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(190, 24);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "Recursos Informáticos";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(27, 392);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(193, 24);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "Formación y Desarrollo";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(505, 202);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(126, 24);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Reclutamiento";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(297, 202);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(111, 24);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Planificación";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(85, 202);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(145, 24);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Caracter General";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(188, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(344, 31);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Selecciona un Cuestionario";
             // 
             // PanelDeCuestionarios
             // 
@@ -280,7 +283,9 @@
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "PanelDeCuestionarios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PanelDeCuestionarios";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PanelDeCuestionarios_FormClosed);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.caracterGeneral)).EndInit();

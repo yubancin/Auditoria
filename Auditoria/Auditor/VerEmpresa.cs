@@ -25,5 +25,31 @@ namespace Auditoria.Auditor
             form.Show();
             this.Visible = false;
         }
+
+        private void cerrarSesionToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Application.OpenForms["IniciarSesion"].Visible = true;
+            this.Visible = false;
+            this.Dispose();
+        }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AyudaAuditor form = new AyudaAuditor();
+            form.Show();
+            this.Visible = false;
+        }
+        private void cerrarAplicacion(FormClosedEventArgs e)
+        {
+
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
+        }
+        private void VerEmpresa_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            cerrarAplicacion(e);
+        }
     }
 }

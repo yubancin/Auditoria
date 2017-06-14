@@ -50,5 +50,14 @@ namespace Auditoria.Auditor
             form.Show();
             this.Visible = false;
         }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AyudaAuditor form = new AyudaAuditor();
+            form.Show();
+            this.Visible = false;
+        }
+
+
     }
 }
