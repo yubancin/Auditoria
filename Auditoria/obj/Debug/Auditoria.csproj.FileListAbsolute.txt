@@ -6,7 +6,6 @@ c:\users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Deb
 c:\users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.csproj.GenerateResource.Cache
 c:\users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.exe
 c:\users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.pdb
-c:\users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Inicio.resources
 C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.DatosDeLaEmpresa.resources
 C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Auditor.InicioAuditor.resources
 C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.IniciarSesion.resources
@@ -25,3 +24,4 @@ C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Deb
 C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.ExportarExcel.resources
 C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Administrador.VerAuditores.resources
 C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.Administrador.VerEmpresas.resources
+C:\Users\habbo\documents\visual studio 2015\Projects\Auditoria\Auditoria\obj\Debug\Auditoria.InicioAdministrador.resources
